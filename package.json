@@ -1,0 +1,24 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "test nodejs ",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon ./index.js localhost 1999",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luutheviet/QuanLyNhanSu.git"
+  },
+  "author": "viet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luutheviet/QuanLyNhanSu/issues"
+  },
+  "homepage": "https://github.com/luutheviet/QuanLyNhanSu#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
